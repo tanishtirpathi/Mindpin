@@ -32,7 +32,7 @@ const MeteorsBackground = () => {
 };
 
 const HeroSection = ({ onDownload }) => (
-  <section className="relative min-h-screen flex flex-col items-center justify-center px-6 overflow-hidden">
+  <section className="relative min-h-screen w-screen flex flex-col items-center justify-center px-6 overflow-hidden">
     <MeteorsBackground />
     <div className="absolute top-20 left-20 w-72 h-72 bg-pink-500/20 rounded-full blur-3xl animate-pulse" />
     <div className="absolute bottom-20 right-20 w-96 h-96 bg-purple-500/20 rounded-full blur-3xl animate-pulse delay-1000" />
@@ -132,7 +132,7 @@ const FeaturesSection = () => {
   return (
     <section
       ref={featuresRef}
-      className="relative py-20 px-6 bg-gradient-to-b from-gray-900 to-black"
+      className="w-screen relative py-20 px-6 bg-gradient-to-b from-gray-900 to-black"
     >
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-5xl font-bold bg-gradient-to-r from-pink-400 to-purple-400 bg-clip-text text-transparent mb-6">
@@ -184,7 +184,7 @@ const FeaturesSection = () => {
   );
 };
 
-const App = () => {
+const App = () => { 
   const handleDownload = async () => {
     try {
       const link = document.createElement("a");
