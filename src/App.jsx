@@ -61,15 +61,10 @@ const HeroSection = ({ onDownload }) => (
       </button>
       <div className="mt-16">
         <div className="relative w-full max-w-3xl mx-auto aspect-video rounded-xl overflow-hidden shadow-lg">
-          <video
+          <img
             className="w-full h-full float-right scale-90 animate-zoom-in"
-            src="./video.mp4"
-            title="MindPin Demo Video"
-            autoPlay
-            muted
-            loop
-            playsInline
-          ></video>
+            src="./video.png"
+          ></imng>
         </div>
       </div>
     </div>
