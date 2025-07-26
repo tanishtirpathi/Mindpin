@@ -64,7 +64,7 @@ const HeroSection = ({ onDownload }) => (
           <img
             className="w-full h-full float-right scale-90 animate-zoom-in"
             src="./video.png"
-          ></imng>
+          ></img>
         </div>
       </div>
     </div>
