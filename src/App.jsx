@@ -30,7 +30,7 @@ const Navbar = () => (
       <button
         onClick={() =>
           window.open(
-            "https://github.com/tanishtirpathi/First-desktop-app-/releases/download/mindpin/Mindpin.zip"
+            "https://github.com/tanishtirpathi/First-desktop-app-/releases/download/mindpin/win-unpacked.zip"
           )
         }
         className="px-5 py-2 text-sm bg-white text-white font-semibold rounded-full hover:bg-gray-200 transition-all active:scale-95"
