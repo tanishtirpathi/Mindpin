@@ -191,7 +191,7 @@ const FeaturesSection = () => {
 const App = () => {
   const handleDownload = () => {
     window.open(
-      "https://github.com/tanishtirpathi/First-desktop-app-/releases/download/mindpin/Mindpin.zip",
+      "https://github.com/tanishtirpathi/First-desktop-app-/releases/download/mindpin/win-unpacked.zip",
       "_blank"
     );
   };
