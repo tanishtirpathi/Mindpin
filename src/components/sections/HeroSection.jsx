@@ -39,7 +39,7 @@ export default function HeroSection({ onDownload, isDark }) {
         </div>
 
         <Card
-          className={`mt-16 w-80% max-w-5xl overflow-hidden border p-2 ${
+          className={`mt-16 w-[70%] max-w-5xl overflow-hidden border p-2 ${
             isDark ? "border-white/15 bg-black/60" : "border-black/15 bg-white/80"
           }`}
         >
